@@ -20,15 +20,15 @@ SWEP.HoldType            = "ar2"
 SWEP.Kind                = WEAPON_HEAVY
 SWEP.WeaponID            = AMMO_MAC10
 
-SWEP.Primary.Damage      = 17
-SWEP.Primary.Delay       = 0.09
-SWEP.Primary.Cone        = 0.025
+SWEP.Primary.Damage      = 12
+SWEP.Primary.Delay       = 0.065
+SWEP.Primary.Cone        = 0.03
 SWEP.Primary.ClipSize    = 30
 SWEP.Primary.ClipMax     = 60
-SWEP.Primary.DefaultClip = 900
+SWEP.Primary.DefaultClip = 90
 SWEP.Primary.Automatic   = true
 SWEP.Primary.Ammo        = "smg1"
-SWEP.Primary.Recoil      = 1.04
+SWEP.Primary.Recoil      = 1.15
 SWEP.Primary.Sound       = Sound( "Weapon_SMG1.Single" )
 
 SWEP.AutoSpawnable       = false
@@ -36,8 +36,8 @@ SWEP.AutoSpawnable       = false
 SWEP.ViewModel           = "models/weapons/v_smg1.mdl"
 SWEP.WorldModel          = "models/weapons/w_smg1.mdl"
 
-SWEP.IronSightsPos       = Vector( 2.59, 1.37, 3.5 )
-SWEP.IronSightsAng       = Vector( 5, -15, -2 )
+SWEP.IronSightsPos       = Vector( -6.4318, -2.0031, 2.5371 )
+SWEP.IronSightsAng       = Vector( 0, 0, 0 )
 SWEP.RunArmOffset        = Vector( 9.071, 0, 1.6418 )
 SWEP.RunArmAngle         = Vector( -12.9765, 26.8708, 0 )
 
@@ -97,3 +97,4 @@ function SWEP:Reload()
         net.Send( filter )
     end
 end
+
