@@ -39,6 +39,8 @@ SWEP.Primary.Sound       = Sound( "Weapon_MP5Navy.Single" )
 
 SWEP.IronSightsPos       = Vector( -5.32, -10, 1.6 )
 SWEP.IronSightsAng       = Vector( 2.2, 0, 0 )
+SWEP.ViewModelFlip       = false
+SWEP.ViewModelFOV        = 60
 
 function SWEP:GetHeadshotMultiplier( victim, dmginfo )
     local att = dmginfo:GetAttacker()
